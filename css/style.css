@@ -9,13 +9,16 @@ a.carousel-item.active {
 }
 
  .container {
-    max-height: 100vh;
+    min-height: 100vh;
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
 }
 
 .card-carousel {
     height: 250px !important;
-    margin-bottom: -20px;
 }
 
 /*
@@ -24,3 +27,10 @@ a.carousel-item.active {
 }
 
  */
+
+body {
+    background-image: url('../img/Group.png');
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    background-size: 7%;
+}

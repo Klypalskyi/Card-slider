@@ -41,4 +41,86 @@ $(function() {
       } else return;
     }
   });
+  $("#container").swipe({
+    //Generic swipe handler for all directions
+    swipe: function(
+      event,
+      direction,
+      distance,
+      duration,
+      fingerCount,
+      fingerData
+    ) {
+      if (direction === "down") {
+        let summ = input.value;
+
+        if (summ !== '') {
+          alert(`Сумма ${summ} успішно переведена`);
+          form.reset();
+        }
+      } else return;
+    }
+  });
+  $("#crl-tp").swipe({
+    //Generic swipe handler for all directions
+    swipe: function(
+      event,
+      direction,
+      distance,
+      duration,
+      fingerCount,
+      fingerData
+    ) {
+      if (direction === "down") {
+        let summ = input.value;
+
+        if (summ !== '') {
+          alert(`Сумма ${summ} успішно переведена`);
+          form.reset();
+        }
+      } else return;
+    }
+  });
+  $("#form").swipe({
+    //Generic swipe handler for all directions
+    swipe: function(
+      event,
+      direction,
+      distance,
+      duration,
+      fingerCount,
+      fingerData
+    ) {
+      if (direction === "down") {
+        let summ = input.value;
+
+        if (summ !== '') {
+          alert(`Сумма ${summ} успішно переведена`);
+          form.reset();
+        }
+      } else return;
+    }
+  });
+  $("#crl-bt").swipe({
+    //Generic swipe handler for all directions
+    swipe: function(
+      event,
+      direction,
+      distance,
+      duration,
+      fingerCount,
+      fingerData
+    ) {
+      if (direction === "down") {
+        let summ = input.value;
+
+        if (summ !== '') {
+          alert(`Сумма ${summ} успішно переведена`);
+          form.reset();
+        }
+      } else return;
+    }
+  });
+
+
 });
