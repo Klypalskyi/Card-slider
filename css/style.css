@@ -3,17 +3,24 @@
 }
 
 
-.container {
-    margin-top: 100px !important;
-    height: 100% !important;
-    width: 100% !important;
-    transform: rotate(90deg) !important;
+a.carousel-item, 
+a.carousel-item.active {
+    max-height: min-content;
 }
 
+ .container {
+    max-height: 100vh;
+    padding: 15px;
+}
+
+.card-carousel {
+    height: 250px !important;
+    margin-bottom: -20px;
+}
+
+/*
 .carousel-item img {
     transform: rotate(-90deg);
 }
 
-.carousel-item {
-    width: 350px !important;
-}
+ */
