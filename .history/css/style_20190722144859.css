@@ -1,0 +1,14 @@
+﻿*{
+    box-sizing: border-box;
+}
+
+
+.container {
+    transform: rotate(90deg);
+}
+
+.carousel-item img {
+    transform: rotate(-90deg);
+}
+
+.ca

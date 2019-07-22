@@ -1,0 +1,12 @@
+﻿*{
+    box-sizing: border-box;
+}
+
+
+.container {
+    transform: rotate(90deg);
+}
+
+.carousel-item {
+    transform: rotate(90deg)
+}

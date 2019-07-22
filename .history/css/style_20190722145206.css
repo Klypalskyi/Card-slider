@@ -1,0 +1,18 @@
+﻿*{
+    box-sizing: border-box;
+}
+
+
+.container {
+    padding-left: 100px;
+    height: 100h;
+    transform: rotate(90deg);
+}
+
+.carousel-item img {
+    transform: rotate(-90deg);
+}
+
+.carousel-item {
+    width: 350px !important;
+}

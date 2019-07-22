@@ -1,0 +1,8 @@
+﻿*{
+    box-sizing: border-box;
+}
+
+
+.container {
+    transform: rotate(90deg);
+}

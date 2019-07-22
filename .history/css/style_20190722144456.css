@@ -1,0 +1,8 @@
+﻿*{
+    box-sizing: border-box;
+}
+
+
+.card-carousel {
+    transform: rotate3d(90deg)
+}

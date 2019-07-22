@@ -1,0 +1,19 @@
+﻿*{
+    box-sizing: border-box;
+}
+
+
+.container {
+    padding-left: 100px;
+    height: 100%;
+    width: 100%;
+    transform: rotate(90deg);
+}
+
+.carousel-item img {
+    transform: rotate(-90deg);
+}
+
+.carousel-item {
+    width: 350px !important;
+}
