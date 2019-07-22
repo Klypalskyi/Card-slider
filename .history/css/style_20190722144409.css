@@ -1,9 +1,0 @@
-﻿*{
-    box-sizing: border-box;
-}
-
-
-.card-carousel {
-    display: flex !important;
-    flex-direction: column !important;
-}
