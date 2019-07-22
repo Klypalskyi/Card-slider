@@ -9,7 +9,8 @@ a.carousel-item.active {
 }
 
  .container {
-    min-height: 100vh;
+    min-height: 80vh;
+    overflow: hidden;
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
