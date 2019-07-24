@@ -6,7 +6,8 @@
 }
 
 body {
-  background-image: url("../img/bg.jpg");
+  /* background-image: url("../img/bg.jpg"); */
+  background-color: #666;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
@@ -18,7 +19,7 @@ a.carousel-item.active {
 }
 
 .container {
-  background-color: rgba(255, 255, 255, 0.7);
+  /* background-color: rgba(255, 255, 255, 0.7); */
   min-height: 100vh;
   min-width: 360px;
   max-width: 45%;
@@ -153,20 +154,22 @@ a.carousel-item.active {
 
   .value-input {
     display: block;
-    border-bottom-color: #444;
+    border-bottom-color: #fff;
   }
 
   input::-webkit-input-placeholder {
-    color: #444;
+    color: #fff;
+    font-size: 18px;
   }
 
   .value-submit {
-    background-color: #444;
+    background-color: #fff;
+    color: #666;
   }
 
   .value-submit:focus,
   .value-submit:hover {
-    background-color: #444;
+    background-color: #fff;
   }
 }
 
