@@ -6,11 +6,11 @@
 }
 
 body {
-    background-image: url("../img/bg.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
-  }
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
 
 a.carousel-item,
 a.carousel-item.active {
@@ -23,7 +23,7 @@ a.carousel-item.active {
   min-width: 360px;
   max-width: 45%;
   margin: auto;
-  
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -34,21 +34,16 @@ a.carousel-item.active {
   height: 250px !important;
 }
 
-/*
-.carousel-item img {
-    transform: rotate(-90deg);
+.carousel-item {
+  min-width: min-content;
 }
-
- */
-
-
 
 /* CARD STYLES */
 
 .card {
   font-family: "Exo 2", sans-serif;
-  width: 230px;
-  min-height: 138px;
+  width: 260px;
+  min-height: 170px;
   border-radius: 6px;
   padding: 10px;
   /* border: 1px solid #666; */
@@ -57,7 +52,7 @@ a.carousel-item.active {
 }
 
 .small-text {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .card-logo {
@@ -77,11 +72,23 @@ a.carousel-item.active {
   max-width: 70%;
 }
 
+.mps-logo {
+  max-width: 30%;
+}
+
 .card-cardnum {
   flex-basis: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.card-cardnum__one,
+.card-cardnum__two,
+.card-cardnum__three,
+.card-cardnum__four {
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .card-footer {
@@ -112,6 +119,20 @@ a.carousel-item.active {
     rgba(128, 90, 30, 1) 56.00000000000001%,
     rgba(165, 140, 92, 1) 98%
   );
+  color: #000;
+}
+
+.card.ukrsib {
+  background: linear-gradient(
+    297deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(199, 199, 207, 1) 0%,
+    rgba(175, 177, 177, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(105, 114, 105, 1) 75%,
+    rgba(193, 194, 196, 1) 96%
+  );
+  color: rgb(197, 197, 197);
 }
 
 .card.alfa {
@@ -155,6 +176,8 @@ a.carousel-item.active {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    max-width: 395px;
+    margin: auto;
   }
 
   .value-input {

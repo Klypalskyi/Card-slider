@@ -407,7 +407,8 @@ $(document).ready(function() {
     dist: -180,
     padding: 350,
     noWrap: false,
-    numVisible: 3
+    numVisible: 1,
+    indicators: true,
   });
 });
 
@@ -417,6 +418,12 @@ const input = document.querySelector(".value-input");
 form.addEventListener("submit", submitForm);
 
 function submitForm(e) {
-  alert(`Сумма ${input.value} грн вдало відправлена!`);
-  form.reset();
+  if (input.value !== "") {
+    alert(`Сумма ${input.value} грн вдало відправлена!`);
+    form.reset();
+  } else {
+    alert(`Вкажіть сумму`);
+    event.preventDefault();
+    return;
+  }
 }
